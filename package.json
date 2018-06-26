@@ -1,0 +1,30 @@
+{
+  "name": "mean-stack-login-registration",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayanakaFonseka/MEAN-stack-Login-Registration.git"
+  },
+  "author": "Jayanaka Fonseka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayanakaFonseka/MEAN-stack-Login-Registration/issues"
+  },
+  "homepage": "https://github.com/JayanakaFonseka/MEAN-stack-Login-Registration#readme"
+}
