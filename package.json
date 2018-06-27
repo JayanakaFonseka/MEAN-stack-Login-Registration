@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/JayanakaFonseka/MEAN-stack-Login-Registration/issues"
   },
-  "homepage": "https://github.com/JayanakaFonseka/MEAN-stack-Login-Registration#readme"
+  "homepage": "https://github.com/JayanakaFonseka/MEAN-stack-Login-Registration#readme",
+  "devDependencies": {
+    "@angular/cli": "^6.0.8"
+  }
 }
