@@ -11,7 +11,7 @@ module.exports = function(passport){
     // opts.issuer = 'accounts.examplesoft.com';
     // opts.audience = 'yoursite.net';
     passport.use(new JwtStrategy(opts, (jwt_payload, done) => {
-        User.getUserById(jwt_payload._doc._id , (err, user) => {
+        User.getUserById({_id: jwt_payload._id} , (err, user) => {
             if (err) {
                 return done(err, false);
             }
